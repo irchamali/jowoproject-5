@@ -1,10 +1,13 @@
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>News HTML-5 Template </title>
+    <title>Home X</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -90,10 +93,10 @@
                                 <div class="main-menu d-none d-md-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">about</a></li>
-                                            <li><a href="categori.html">Category</a></li>
-                                            <li><a href="latest_news.html">Latest News</a></li>
+                                            <li><a href="<?= base_url(''); ?>">Home</a></li>
+                                            <li><a href="<?= base_url('about'); ?>">about</a></li>
+                                            <li><a href="<?= base_url('category'); ?>">Category</a></li>
+                                            <li><a href="<?= base_url('news'); ?>">Latest News</a></li>
                                             <li><a href="#">Pages</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
@@ -101,7 +104,7 @@
                                                     <li><a href="elements.html">Element</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="<?= base_url('contact'); ?>">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
